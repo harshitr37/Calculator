@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #000000
+}
+
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(113, 115, 119, 0.5);
+}
+
+input{
+    width: 320px;
+    border: none;
+    padding: 24px;
+    margin: 10px;
+    background: #3C4142;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(84, 84, 84, 0.1);
+    font-size: 40px;
+    text-align: right;
+    color: white;
+}
+
+input::placeholder{
+    color: #ffffff;
+}
+button{
+    border: none;
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    font-weight: 500;
+    box-shadow: -4px -4px 10px rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-rendering: optimizeLegibility;
+}
+
+.equal{
+    background-color: crimson;
+}
+
+.op{
+    background-color: #3C4142 ;
+}
+
+h2{
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.del{
+    font-size: 20px;
+    font-weight: bold;
+}
